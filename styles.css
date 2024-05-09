@@ -1,0 +1,60 @@
+body {
+    font-family: Arial,  sans-serif;
+      background-image: url(imagines/back.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      
+      
+}
+header{
+    background-color: #3ababb;
+    color: black;
+    padding: 20px;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+}
+ul li {
+list-style: none;
+padding: 0;
+margin: 0;
+display: inline;
+margin-right: 20px;
+}
+main {
+ padding: 20;
+}
+footer{
+    background-color: #3ababb;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+main section {
+    display: flex;
+    flex-direction: row;
+}
+main section .texto2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 100px;
+
+    
+}
+main section div .imagem {
+display: flex;
+padding-left: 200px;    
+}
+
+ 
+    
+
+
+
